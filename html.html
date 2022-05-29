@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Med Track</title>
+  <link rel="stylesheet" href="css.css">
+  <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+<div class="header">
+    <h1>MED TRACK</h1>
+    <a></a>
+ <a href="#default" class="logo"><img src="logo.png" height="60" width="150"></a>	
+    <div class="active">
+    <a href="#home">HOME</a>
+    <a href="about/about.html">ABOUT</a>
+    <a href="form/index.html">ENQUIRY</a>
+  </div>
+</div>	
+<h2>Login Form</h2>
+    <!--Step 1 : Adding HTML-->
+        
+ 
+        <div class="container">
+            <label><b>Username</b></label>
+            <input  type="text" id="user"name="uname" required>
+ 
+            <label><b>Password</b></label>
+            <input type="password" id="password" name="psw" required>
+ 
+            <button type="submit">Login</button>
+            <p>or</p>
+            <a href="signup/htmlpg1.html"><button type="submit">Sign Up</button></a>
+            <input type="checkbox" checked="checked"> Remember me
+        </div>
+ 
+        <div class="container" style="background-color:none">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw"><a href=#default>Forgot Password</a></span>
+        </div>
+    </form>
+ 
+
+ 
+
+
+
+
+
+<style>
+   
+    /*assign full width inputs*/
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+   
+    /*set a style for the buttons*/
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+   
+    /* set a hover effect for the button*/
+    button:hover {
+        opacity: 0.8;
+    }
+   
+    /*set extra style for the cancel button*/
+    .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+    }
+   
+    /*centre the display image inside the container*/
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+        position: relative;
+    }
+   
+    /*set image properties*/
+    img.avatar {
+        width: 40%;
+        border-radius: 50%;
+    }
+   
+    /*set padding to the container*/
+    .container {
+        padding: 16px;
+    }
+     
+    /*set the forgot password text*/
+    span.psw {
+        float: right;
+        padding-top: 16px;
+    }
+   
+   
+   
+   
+    /*style the close button*/
+    .close {
+        position: absolute;
+        right: 25px;
+        top: 0;
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+    }
+     
+    .close:hover,
+    .close:focus {
+        color: red;
+        cursor: pointer;
+    }
+   
+    /* add zoom animation*/
+    .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s
+    }
+     
+    @-webkit-keyframes animatezoom {
+        from {
+            -webkit-transform: scale(0)
+        }
+        to {
+            -webkit-transform: scale(1)
+        }
+    }
+     
+    @keyframes animatezoom {
+        from {
+            transform: scale(0)
+        }
+        to {
+            transform: scale(1)
+        }
+    }
+     
+    @media screen and (max-width: 300px) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+        .cancelbtn {
+            width: 100%;
+        }
+    }
+</style>
+ 
+</html>
