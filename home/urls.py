@@ -5,5 +5,6 @@ import home
 from home import views
 
 urlpatterns = [
-    path('hai', views.index),
+    path('', views.home, name="home"),
+    path('signup/', views.signup, name="signup"),
 ]
